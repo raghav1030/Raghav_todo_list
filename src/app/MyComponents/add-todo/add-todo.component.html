@@ -1,0 +1,17 @@
+
+<div class="container my-3">
+<h2>Add a new Todo --></h2>
+
+<form (ng-submit)="onAdd()">
+    <div class="mb-3">
+      <label for="title" class="form-label">Todo Title</label>
+      <input type="title" class="form-control" id="title" name="title" aria-describedby="title" [(ngModel)]="title">
+      <div id="titlelHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="desc" class="form-label">Add Description</label>
+      <input type="text" class="form-control" id="desc" name="desc" [(ngModel)]="desc">
+    </div>
+    <button type="add-btn" class="btn sm-3 btn-warning" (click)="onAdd()" >Add Todo</button>
+  </form>
+</div>

@@ -1,0 +1,17 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@1,200&family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@1,200&display=swap');
+
+.strike{
+    text-decoration: line-through   ;
+}
+
+.Todo-Head{
+    font-family: 'Lato', sans-serif;
+}
+
+.Todo-desc{
+    font-family: 'Raleway', sans-serif;
+}

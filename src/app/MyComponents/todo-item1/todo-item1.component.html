@@ -1,0 +1,26 @@
+<h1 class="text-center mb-5 ">My Todo List</h1>
+
+
+<div class="container">
+    <div class="row align-items-start">
+      <div class="col">
+        <h1  class ="Todo-Head" [ngClass]="{'strike': !todo.active}">{{todo.title}}</h1>
+        <p class ="Todo-desc" [ngClass]="{'strike': !todo.active}">
+            {{todo.desc}}
+        </p>
+      </div>
+      <div class="col">
+        <span class="form-check form-group">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault {{i}} " (click)="markDone(todo)" [checked]="!todo.active" >
+            <label class="form-check-label" for="flexCheckDefault {{i}} " >
+            Mark as Done :)
+            </label>
+        </span>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-bg btn-dark pull-right " (click)="onClick(todo)" >Delete</button>
+      </div>
+    </div>
+    
+
+
